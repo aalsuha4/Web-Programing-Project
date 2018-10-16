@@ -80,9 +80,6 @@ def logout():
 #         return redirect(url_for('index'))
 #     return render_template('login.html', title='Sign In', form=form)
 
-
 @app.route('/hello')
 def hello():
      return render_template('hello.html', name = "aalsuha4")
-
-     
