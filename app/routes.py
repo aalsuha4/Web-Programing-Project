@@ -10,6 +10,7 @@ from flask import request
 from werkzeug.urls import url_parse
 
 
+
 @app.route('/')
 @app.route('/index')
 @login_required
@@ -83,3 +84,5 @@ def logout():
 @app.route('/hello')
 def hello():
      return render_template('hello.html', name = "aalsuha4")
+
+     
